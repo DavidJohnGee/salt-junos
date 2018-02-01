@@ -1,8 +1,3 @@
--rw-rw-r-- 1 davidgee davidgee  274 Feb  1 13:16 master
--rw-rw-r-- 1 davidgee davidgee  186 Feb  1 13:18 reactor_run_get_version.sls
--rw-rw-r-- 1 davidgee davidgee  584 Feb  1 13:21 state_run_get_version_save_output.sls
-
-
 ## Example 1 Readme
 
 This example directory contains three files and this README file.
@@ -19,7 +14,7 @@ Contains the reactor logic and passes through inline pillar data. This reactor t
 
 __state_run_get_version_save_output.sls__
 
-Contains the state logic required to issue a CLI command and save the file to the master.
+Contains the state logic required to issue a CLI command and save the file to the minion.
 
 
 
