@@ -4,7 +4,7 @@ This README describes each sub-directory within this repository.
 
 This repository in turn contains `Salt` snippets. These snippets show you how to do certain tasks and describe the logical workflows.
 
-##Example 1
+## Example 1
 
 [1_reactor_state_get_command_output](https://github.com/DavidJohnGee/salt-junos/tree/master/1_reactor_state_get_command_output)
 
