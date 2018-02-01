@@ -1,0 +1,7 @@
+# This is only the reactor part of the master file
+
+# Match on the event tag (top line below reactor:)
+reactor:
+  - 'napalm/syslog/junos/CONFIGURATION_COMMIT_COMPLETED/*'
+    # Once matched, execute the local reactor.sls below
+    - /srv/reactor/reactor_run_get_version.sls
